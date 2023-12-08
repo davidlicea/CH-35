@@ -1,0 +1,51 @@
+.campoForm{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo{
+    display: flex;
+    justify-content: space-between;
+}
+
+#direccion{
+    width: 80%;
+}
+
+#ocupacion{
+    width: 900px;
+}
+
+#email{
+    width: 400px;
+}
+
+.leyenda{
+    font-size: x-large;
+    font-weight: 800;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+button[type="reset"] {
+    background-color: #f44336;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+}

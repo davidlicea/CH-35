@@ -1,0 +1,40 @@
+p{
+    background-color: blue;
+}
+
+#Rey{
+    color: blueviolet;
+}
+
+#Rene{
+    color: aqua;
+}
+
+.CH35{
+    color: blue;
+}
+
+.contenedor{
+    background-color: aquamarine;
+}
+
+.titulo{
+    color: blue;
+}
+
+.caja{
+    background-color: aqua;
+}
+
+.pasos{
+    font-size: xx-large;
+}
+
+.cajaDos{
+    width: 200px;
+    height: 200px;
+    margin: 20px 50px;
+    padding: 30px;
+    border: solid seashell;
+}
+

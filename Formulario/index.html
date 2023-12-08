@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Avanzado</title>
+    <link rel="stylesheet" href="./style/styles.css">
+</head>
+
+<body>
+    <h1>Ejemplo de tabla</h1>
+    <!--Las tabalas son un conjunto de datos compuesto por filas y columnas.-->
+    <caption>Tabla de Nombres</caption> <!--caption representa un titulo descriptivo de una tabla-->
+    <table border="1"> <!--Crea un elemento de tabla-->
+        <tr><!-- tr Representa una fila-->
+            <th>Encabezado</th> <!--th representa un encabezado-->
+            <th>Encabezado 2</th>
+        </tr>
+        <tr>
+            <td>Nombre 1</td> <!--td Representa la primera celda de la prmer fila-->
+            <td>Apellido 1</td> <!--Representa la seduna celda de la primer fila-->
+        </tr>
+        <tr>
+            <td>David</td>
+            <td>Licea</td>
+        </tr>
+        <tr>
+            <td>Daniel</td>
+            <td>De la Cruz</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <h1>Equipo 3</h1>
+    <caption>DevVortex</caption>
+    <table border="5">
+        <tr>
+            <th>Nombre(s)</th>
+            <th>Apellido Paterno</th>
+            <th>Apellido Materno</th>
+            <th>Equivocado</th>
+        </tr>
+        <tr>
+            <td>Nadia Abigail</td>
+            <td>Martinez</td>
+            <td>León</td>
+            <td>Nadie</td>
+        </tr>
+        <tr>
+            <td>Rene</td>
+            <td>Gómez</td>
+            <td>Orozco</td>
+            <td>Gomes</td>
+        </tr>
+        <tr>
+            <td>Eunice</td>
+            <td>Ceja</td>
+            <td>Santos</td>
+            <td>Eunis</td>
+        </tr>
+        <tr>
+            <td>Baruch</td>
+            <td>Moreno</td>
+            <td>Romero</td>
+            <td>Apodos con terminación "uch"</td>
+        </tr>
+        <tr>
+            <td>David Alberto</td>
+            <td>Romero</td>
+            <td>Licea</td>
+            <td>Eliceo</td>
+        </tr>
+        <tr>
+            <td>Ana Karen</td>
+            <td>Morales</td>
+            <td>Ramos</td>
+            <td>Karina</td>
+        </tr>
+        <tr>
+            <td>Montserrat</td>
+            <td>Martinez</td>
+            <td>Galvan</td>
+            <td>Monserrat</td>
+        </tr>
+        <tr>
+            <td>Jesus Emiliano</td>
+            <td>Madrigal</td>
+            <td>Gonzalez</td>
+            <td>Emilio Gonsales</td>
+        </tr>
+        <tr>
+            <td>Oswaldo Emiliano</td>
+            <td>Zarza</td>
+            <td>Morales</td>
+            <td>Zarzamora</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <table border="1">
+        <thead> <!--Esta etiqueta agrupa lso elementos de la cabecera en la tabla-->
+            <tr>
+                <th colspan="3">Encabezado de tablas</th>
+                <!--Permite expandir las celdas de datos de encabezados al numero de columnas que deseamos ocupar-->
+            </tr>
+        </thead>
+        <tbody><!--Esta etiqueta agrupa los elementos de contenido de la tabla-->
+            <tr>
+                <td>El cuerpo de la tabla</td>
+                <td>con 2 columnas</td>
+                <td>columna</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">Piesitos</th>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <br>
+    <br>
+    <h1>Anclajes: Interno y externo</h1>
+    <a href="#seccion 1">¿Adoptar una mascota?</a>
+    <br>
+    <a href="#seccion 2">Antes de llevar a un peludito a casa, debe tener en mente que es una responsabilidad monetaria
+        a
+        largo plazo y
+        que ellos se merecen que les demos una vida digna.</a>
+    <br>
+    <a href="#seccion 3">¿Cuanto cuesta mantener una mascota?</a>
+    <br>
+    <a href="#seccion 4">Dueño responsable</a>
+    <h2 id="seccion 1">¿Adoptar una mascota? Tome en cuenta sus gastos</h2>
+
+    <img src="https://www.eleconomista.com.mx/__export/1650592718322/sites/eleconomista/img/2022/04/21/grafico_eleconomista_mexico_finanzas_personales_adopcion_de_mascotas_consejos.png_1947833983.png"
+        alt="informacion de adopcion" width="400px">
+    <br>
+    <h4 id="seccion 2">Antes de llevar a un peludito a casa, debe tener en mente que es una responsabilidad monetaria a
+        largo plazo y
+        que ellos se merecen que les demos una vida digna.</h4>
+
+    <p>Las organizaciones protectoras de animales siempre recomiendan tomar en cuenta que el adoptar una mascota
+        representa una responsabilidad por muchos años, pero lo que también debemos tomar en cuenta antes de adoptar es
+        el hecho de que esta responsabilidad también representa un gasto.Según cifras de MSD Salud Animal México,
+        aproximadamente 57% de las familias tiene una mascota, de las cuales, 15% tiene al menos un gato, mientras que
+        9.6 millones de perros forman parte de una familia.Durante la pandemia de Covid-19 hubo un incremento de 41% en
+        la búsqueda de adopción de mascotas, debido a que durante el confinamiento muchas personas sufrieron altos
+        niveles de estrés y ansiedad.Varios estudios han comprobado que el tener una mascota en casa tiene beneficios
+        tanto físicos como emocionales, pero ellos también tienen necesidades, por lo que debemos ver por su
+        alimentación, salud, diversión, accesorios, aseo, etc., lo cual podría repercutir en nuestro bolsillo.</p>
+    <br>
+    <h3 id="seccion 3">¿Cuanto cuesta mantener una mascota?</h3>
+    <p>El gasto de una mascota dependerá de muchos factores, principalmente la talla del animalito, ya que un perro de
+        talla pequeña no come ni tiene las mismas necesidades que uno de talla grande, por ello antes de adoptar debemos
+        determinar a qué tipo de mascota podemos darle una vida digna.Un sondeo realizado por la plataforma de servicios
+        financieros Coru.com y la empresa de estudios de mercado Brad Engagment, arrojó que 45.4% de las personas gasta
+        mensualmente menos de 1,000 pesos en sus mascotas, 41.3% gasta de 1,000 a 2,000, 9% gasta de 2,000 a 3,000 y 3%
+        gasta más de 3,000 pesos mensuales.
+        El gasto inicial ronda los 2,000 pesos, entre los accesorios y la comida que debemos comprar, como una cama, un
+        collar, una correa, un plato, juguetes, etc.Si desea adoptar un gato, ellos necesitan artículos como un arenero,
+        una pala, su cama, rascador, cepillo y corta uñas, entre otras cosas, que su costo total ronda los 3,700 pesos.
+    </p>
+    <h3 id="seccion 4">Dueño responsable</h3>
+    <p>El gobierno realiza campañas de vacunación y esterilización gratuitas, incluso la Facultad de Medicina
+        Veterinaria y Zootecnia de la UNAM puso a disposición servicios de esterilización con costos de recuperación
+        desde 650 a 1,200 pesos.Además de esto, debe contemplar que su mascota necesita aseo, muchas personas optan por
+        bañar y cepillar a su mascota ellas mismas, por lo que únicamente gastan entre 200 y 300 pesos al año, sin
+        embargo, hay quienes prefieren llevar a sus mascotas a estéticas caninas, por lo que el servicio varía desde 100
+        hasta 800 pesos por servicio.Por otra parte, los animalitos necesitan distracciones, es por ello que habrá que
+        comprarle algunos juguetes cuyo costo fluctúa entre 100 y 500 pesos.Estos son solo algunos gastos que representa
+        el tener una mascota en casa, sin contar los imprevistos, como cuando salimos de vacaciones y debemos dejar a
+        nuestro perro o gato con algún cuidador que cobra desde 200 hasta 800 pesos por día, o cuando se enferman y
+        requieren de procedimientos médico.De acuerdo a todo lo anterior, una persona podría gastar entre 15,000 y
+        25,000 pesos al año en mantener a una mascota con sus necesidades básicas; esto varía, ya que muchos gastan un
+        poquito más en darle lo mejor a sus mascotas, pues son un integrante más de la familia.
+    </p>
+    <br>
+    <br>
+    <br>
+    <hr>
+
+    <h2>Anclaje externo</h2>
+    <br>
+    <a href="https://www.telediario.mx/comunidad/refugios-de-animales-en-guadalajara-para-adopcion"
+        target="_blank">Refugios GDL</a>
+    <!--Estos anclajes enlazan a una página web diferente. El valor del atributo href es la URL completa del sitio web de destino y el identificador de la sección.-->
+    <h5>Anclar numero telefonico</h5>
+    <a href="tel.+5256367634">Llamar a Fulanitos</a>
+    <h5>Anclaje de WhatsApp</h5>
+    <a href="https://wa.me/1234567890" target="_blank">Envianos un mensaje a WhatsApp</a>
+    <!--Estos enlaces abren WhatsApp en un navegador o en la aplicacion movil para que los usuarios puedan enviar mensajes al numero preferido-->
+    <h5>Anclaje de Mapa</h5>
+    <a href="https://www.google.com/maps/place/Paya+94000,+Rep%C3%BAblica+Dominicana/@18.2642498,-70.2965355,15z/data=!3m1!4b1!4m6!3m5!1s0x8ea54ee434505a99:0x2133fc7c551c08ab!8m2!3d18.2609839!4d-70.2964894!16s%2Fg%2F11cmr0_mkv?entry=ttu"
+        target="_blank">Ver ubicacion a la playa</a>
+    <!--Estos anclaces nos permiten enlazar ubicaciones especificas en servicios de mapas, ya sea en Google, para que lo susuarios puedan tener la referencia-->
+    <br>
+    <h5>Anclaje de redes sociales</h5>
+    <a href="https://www.facebook.com/VegattosMx/?locale=es_LA" target="_blank">Veggatos</a>
+    <br>
+    <br>
+    <hr>
+    <h1>Formularios y tipos de entrada</h1>
+    <form action="procesar formulario" method="post"></form>
+    <!--la etiqueta form, se utiliza para crear un formulario en HTML que permite a los usuarios ingresar informacion 
+    action:Especifica a la URL a la que se enviaran los datos del formulario cuando este se envia
+    post: Nuestro method define el metodo HTTP que se utilizara para enviar los datos (puede ser get o post)-->
+    <br>
+    <h4>Etiqueta input</h4>
+    <!--La eteiqueta input se utiliza pra crear campos de entrada en un formulario-->
+    <input type="text" name="Usuario" placeholder="Nombre">
+    <input type="password" name="Contraseña" placeholder="Contraseña">
+    <!-- type: Define el tipo de entrada (texto, contraseña, correo electrónico, etc.).
+    name: Es el nombre del campo, utilizado para identificar el dato cuando se envía el formulario.
+    placeholder: Proporciona un texto de ejemplo dentro del campo de entrada. -->
+    <br>
+    <br>
+    <h4>Etiqueta label</h4>
+    <!--La etiqueta label se utiliza para etiquetar un elemento de entrada en un formulario lo que mejora la accesibilidad y la experiencia del usuario-->
+    <label for="Usuario">Nombre:
+        <!--for: es un atributo que se asocia con el if de un elemto de entrada para indicar a que campo se refiere -->
+        <input type="text" name="usuario" id="usuario">
+    </label>
+    <br>
+    <h4>Etiqueta button</h4>
+    <!--Esta etiqueta se utiliza para crear botones en un formulario que los usuarios pueden usar para hacer click y enviar informacion-->
+    <button type="submit">Enviar</button>
+    <button type="reset">Resetear</button>
+    <!--type: Define el tipo de boton-->
+    <br>
+    <h4>Area de texto</h4>
+    <textarea name="comentarios" id="comentarios" cols="50" rows="10"></textarea>
+    <br>
+    <h4>Numeros</h4>
+    <!--Este tipo de entrada crea un campo de entrada para numeros-->
+    <input type="number" name="number" placeholder="Elija un numero">
+    <br>
+    <h4>Correo electronico (email)</h4>
+    <input type="email" name="email" placeholder="tucorreo@correo.com">
+    <br>
+    <h4>Numero telefonico</h4>
+    <input type="tel" name="telefono" placeholder="+52-55-55-55-55">
+    <br>
+    <h4>Fecha (date)</h4>
+    <input type="date" name="fecha">
+    <h4>Hora (time)</h4>
+    <input type="time" name="hora">
+    <h4>Archivo</h4>
+    <input type="file" name="archivo">
+    <br>
+    <hr>
+    <div>
+        <h1>Formulario de adopción</h1>
+        <div>
+            <fieldset class="campoForm">
+                <legend class="leyenda">1) Datos personales</legend>
+                <br>
+                <div class="campo">
+                    <div>
+                        <label for="usuario">Nombre completo</label>
+                        <input type="text" id="usuario" required>
+                    </div>
+                    <div>
+                        <label for="edad">Edad</label>
+                        <input type="number" id="edad" required>
+                    </div>
+                </div>
+                <br>
+                <div class="campo">
+                    <label for="direccion">¿Dónde vivirá el peludito?</label>
+                    <input type="text" id="direccion" placeholder="Escribe tu dirección aquí">
+                </div>
+                <br>
+                <div class="campo">
+                    <div>
+                        <label for="ocupacion">Ocupación</label>
+                        <input type="text" id="ocupacion" placeholder="Escribe a que te dedicas">
+                    </div>
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="quieromascota@correo.com">
+                    </div>
+                </div>
+                <br>
+                <div class="campo">
+                    <div>
+                        <label for="tel">Casa</label>
+                        <input type="tel" id="tel" placeholder="55 55 55 55 55">
+                    </div>
+                    <div>
+                        <label for="tel">Celular</label>
+                        <input type="tel" id="tel" placeholder="55 55 55 55 55">
+                    </div>
+                    <div>
+                        <label for="tel">Trabajo</label>
+                        <input type="tel" id="tel" placeholder="55 55 55 55 55">
+                    </div>
+                </div>
+                <br>
+                <div class="campo">
+                    <label for="estudios">Nivel de estudios</label>
+                    <input type="checkbox" id="estudios">Técnico
+                    <input type="checkbox" id="estudios">Universidad
+                    <input type="checkbox" id="estudios">Preparatoria
+                    <input type="checkbox" id="estudios">Secundaria
+                </div>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset class="campoForm">
+                <legend class="leyenda">2) Referencias</legend>
+                <label for="referencia">Referencia personal:</label>
+                <input type="text" id="referencia"><br>
+                <label for="telr">Telefono</label>
+                <input type="tel" id="telr" placeholder="55 55 55 55 55"><br>
+                <label for="parentesco">Parentesco</label>
+                <input type="text" id="parentesco"><br>
+                <label for="referencia">Referencia personal:</label>
+                <input type="text" id="referencia"><br>
+                <label for="telr">Telefono</label>
+                <input type="tel" id="telr" placeholder="55 55 55 55 55"><br>
+                <label for="parentesco">Parentesco</label>
+                <input type="text" id="parentesco">
+            </fieldset>
+            <br>
+            <div class="botones">
+                <button type="submit">Enviar</button>
+                <button type="reset">Resetear</button>
+        </div>
+    </div>
+</body>
+
+</html>
