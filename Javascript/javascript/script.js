@@ -16,9 +16,8 @@ var numero2 = parseInt(prompt("Ingresa el segundo número"));
 console.log("suma:" + (numero1 + numero2));
 console.log("resta:" + (numero1 - numero2));
 console.log("multiplicación:" + (numero1 * numero2));
-console.log("División:" + (numero1 / numero2));*/
+console.log("División:" + (numero1 / numero2));
 
-// Solicitar al usuario que ingrese su edad
 var edad = prompt("Por favor, ingresa tu edad:");
 
 edad = parseInt(edad);
@@ -28,3 +27,25 @@ if (edad < 18) {
 } else {
     alert("Mejor ve por ibuprofeno.");
 }
+*/
+
+//TIPOS DE DATOS Y VARIABLES
+
+//scope es el alcance de nuestras variables
+
+/*var, let, const la diferencia 
+var tiene un alcance global 
+let tiene un alcance local
+const se mantiene sin ningun cambio*/
+
+/*string: cadena de texto (Lleva commillas)
+number: numero 
+boolean: true/false
+undefinied: no asignado o definido*/
+
+let nombre = "Daniel";
+let invitadxsExtras = 2;
+let esMayorEdad = true;
+let edad = 24;
+let invitadxEspecial = null;
+let horaDeSalida = undefined;

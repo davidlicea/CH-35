@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 2000px;
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.divIzq {
+    width: 60%;
+    height: 710px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divDer {
+    width: 40%;
+    height: 710px;
+    background: linear-gradient(to left, rgb(141, 21, 206), whitesmoke);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagenDev {
+    width: 80%;
+    height: 80%;
+    background-image: url(../assets/developer_male-removebg-preview.png);
+}
+
+.contForm {
+    width: 400px;
+    height: 500px;
+    padding-top: 50px;
+    background-color: white;
+    box-shadow: 2px -1px 31px 14px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contBot {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton {
+    width: 35%;
+    border-radius: 6px;
+    border: 1px solid black;
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgInt {
+    width: 25px;
+    height: 25px;
+}
+
+h3{
+    display: inline-block;
+    position: relative;
+}
+
+h3::after,h3::before{
+    content:'';
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    background-color: rgb(184, 184, 184);
+    top: 0.6em;
+}
+
+h3::before{
+    left: -140px;
+}
+
+h3::after{
+    right: -140px;
+}
+
+
+/**/
+
+#text-purple {
+    color: #6b43ff;
+    font-weight: bold;
+    font-size: small;
+    display: flex;
+    justify-content: end;
+  }
+  
+  .container-text-purple {
+    width: 80%;
+    display: flex;
+    justify-content: end !important;
+  }
+  
+  .inputCont{
+    width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
