@@ -115,3 +115,87 @@ cajeroAutomatico(3);
  * 5. A franco suizo
  * Consideracion: estructura switch
  */
+
+/*Write a function that takes an integer minutes and converts it to seconds.
+*Examples*
+
+    convert(5) ➞ 300
+    convert(3) ➞ 180
+    convert(2) ➞ 120*/
+    function calcSegundos (numero){
+        return numero * 60;
+    }
+    let resultadoSegundos = calcSegundos(5);
+    console.log(`La conversión da ${resultadoSegundos} segundos`);
+
+/*Create a function that takes a number as an argument, increments the number by +1 and returns the result.
+*Examples*
+    
+    addition(0) ➞ 1
+    addition(9) ➞ 10
+    addition(-3) ➞ -2*/
+    function numberPlusOne (numero){
+        return numero + 1;
+    }
+    let resultNumber = numberPlusOne(5);
+    console.log(`El resultado es ${resultNumber}`);
+
+/*Write a function that takes the base and height of a triangle and return its area.
+*Examples*
+
+    triArea(3, 2) ➞ 3
+    triArea(7, 4) ➞ 14
+    triArea(10, 10) ➞ 50*/
+    function calcArea(x, y){
+        return (x * y) / 2;
+    }
+    let resultado = calcArea(8, 4);
+    console.log(`El área del triangulo es ${resultado}`);
+
+/*Create a function that takes the age in years and returns the age in days.
+*Examples*
+    
+    calcAge(65) ➞ 23725
+    calcAge(0) ➞ 0
+    calcAge(20) ➞ 7300*/
+    function calcDays (numero){
+        return numero * 365;
+    }
+    let resultadoDays = calcDays(5);
+    console.log(`La conversión da ${resultadoDays} días`);
+
+/*Create a function that takes voltage and current and returns the calculated power.
+*Examples*
+
+    circuitPower(230, 10) ➞ 2300
+    circuitPower(110, 3) ➞ 330
+    circuitPower(480, 20) ➞ 9600*/
+    function calcPotencia(x, y){
+        return (x * y);
+    }
+    let resultadoPotencia = calcPotencia(8, 4);
+    console.log(`La potencia es ${resultadoPotencia}`);
+
+/*Write a function that returns the string "something" joined with a space " " and the given argument a.
+*Examples*
+
+    giveMeSomething("is better than nothing") ➞ "something is better than nothing"
+    giveMeSomething("Bob Jane") ➞ "something Bob Jane"
+    giveMeSomething("something") ➞ "something something"*/
+    function word() {
+        return "Something";
+    }
+    console.log(word() + " " + "About Us");
+
+/*Given an n-sided regular polygon n, return the total sum of internal angles (in degrees).
+*Examples*
+
+    sumPolygon(3) ➞ 180
+    sumPolygon(4) ➞ 360
+    sumPolygon(6) ➞ 720*/
+    function sumPolygon(n) {
+        return (n - 2) * 180;
+      }
+      console.log(sumPolygon(3));
+      console.log(sumPolygon(4)); 
+      console.log(sumPolygon(6)); 
